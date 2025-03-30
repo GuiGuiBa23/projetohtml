@@ -1,0 +1,118 @@
+<!DOCTYPE html> <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .body{
+            background-color: #EBEBEB;
+        }
+       .abertura { 
+        background-color: #21272B;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: flex-start;
+        align-items: stretch;
+        scrollbar-width: none;
+        width: 100%;
+        
+        }
+        .imagem1{
+            display: block;
+            margin-top: auto;
+        }
+        .imagem1, h1{
+            color: #1BB4E8;
+            display: inline-block;
+        }
+        
+        .links{
+            align-items: "right";
+            align-content: "right";
+            align-self: auto;
+        }
+        nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+        .textosobimg{
+            background-color: #1A3243;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-content: flex-start;
+            align-items: stretch;
+            width: 100%;
+            height: 350px;
+        }
+        .destino {
+            background-color: #1BB4E8;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-content: flex-start;
+            align-items: stretch;
+            width: 50%;
+        }
+        .nossafrota {
+            background-color: #C6B07F;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-content: flex-start;
+            align-items: stretch;
+            width: 50%;
+        }
+
+    </style>
+
+</head>
+<body>
+  <div class= abertura>
+    <img class = imagem1 src="c:\Users\Gabriel\Downloads\barco1.png">
+    <H1>Luxo</H1>
+    <h2>Aluguel de Iates</h2>
+    <nav>
+        <ul></ul>
+        <li><a href = "" class = página_inicial>página inicial</a></li>
+        <li><a href = "" class = aluguel>aluguel</a></li>
+        <li><a href = "" class = destinos>destinos</a></li>
+        <li><a href = "" class = tripulação>tripulação</a></li>
+        <li><a href = "" class = contatos>contatos</a></li>
+    </nav>
+    </div>
+    <div class=background>
+        <img class = imagem2 src =c:\Users\Gabriel\Downloads\barco.jpg width="100%" height="450px">
+        <div class=textosobimg>
+            <img class = imagembarquinho src = "c:\Users\Gabriel\Downloads\barco1.png">
+            <h1><i id="spaceText" class="titulotxt"></i><p style="color: white;"><i>Você só encontra coisas boas se souber onde procurar.</p></i></h1>
+            <h2><p style="color: white;"><i>ligue agora para agendar as férias de sua vida:</p></i></h2>
+            <h3><p style="color: #C6B07F;">(00) 8000-0000</h3></p>
+        </div>
+            <div class= destino>
+                <img class= destinoimg src="c:\Users\Gabriel\Downloads\destino.png">
+                <h1><i id="spaceText" class="txt"></i><p style="color: white;">Destino.</p></h1>
+            </div>
+            <div class = textodestino>
+                <h1><p style="color: black;"><em>Eu Sou Um Texto</p></Em></h1>
+                <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque ratione impedit ab? Consequatur repellendus quis neque facere eligendi, sequi iste velit!</h2>
+            </div>
+            <div class = imgm>
+                <img class = nssdestino src = c:\Users\Gabriel\Pictures\Praiatropical.jpg width="20%" height = 150px>
+            </div>
+                <div class=nossafrota>
+                    <img class = nossfrotaimg src = "c:\Users\Gabriel\Downloads\nossafrota.png">
+                    <h1><i id = "spaceText" class="txt2"></i><p style="color: #ffff;">Nossa Frota</p></h1>
+                </div>
+                    <div class= textonossafrota>
+                        <div class = textodestino>
+                            <h1><p style="color: rgb(6, 6, 6);"><em>Eu Sou Um Texto</p></Em></h1>
+                            <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque ratione impedit ab? Consequatur repellendus quis neque facere eligendi, sequi iste velit!</h2>
+                    </div>
+                        <div class="imagems"> 
+                            <img class = barco src = "c:\Users\Gabriel\Downloads\frota2.jpg">
+                            <img class= barco2 src = "c:\Users\Gabriel\Downloads\frota1.jpg">
+
+                        </div>
+  </div>  <br>
+</body>
+</html>
