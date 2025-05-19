@@ -3,94 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
-    <style>
-        .body{
-            background-color: #EBEBEB;
-        }
-       .abertura { 
-        background-color: #21272B;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-content: flex-start;
-        align-items: stretch;
-        scrollbar-width: none;
-        width: 100%;
-        
-        }
-        .imagem1{
-            display: block;
-            margin-top: auto;
-        }
-        .imagem1, h1{
-            color: #1BB4E8;
-            display: inline-block;
-        }
-        
-        .links{
-            align-items: "right";
-            align-content: "right";
-            align-self: auto;
-        }
-        nav ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
-        .textosobimg{
-            background-color: #1A3243;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-content: flex-start;
-            align-items: stretch;
-            width: 100%;
-            height: 350px;
-        }
-        .destino {
-            background-color: #1BB4E8;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-content: flex-start;
-            align-items: stretch;
-            width: 50%;
-        }
-        .nossafrota {
-            background-color: #C6B07F;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-content: flex-start;
-            align-items: stretch;
-            width: 50%;
-        }
-
-    </style>
-
 </head>
 <body>
-  <div class= abertura>
-    <img class = imagem1 src="imgs/barco1.png">
-    <H1>Luxo</H1>
-    <h2>Aluguel de Iates</h2>
-    <nav>
-        <ul></ul>
-        <li><a href = "" class = página_inicial>página inicial</a></li>
-        <li><a href = "" class = aluguel>aluguel</a></li>
-        <li><a href = "" class = destinos>destinos</a></li>
-        <li><a href = "" class = tripulação>tripulação</a></li>
-        <li><a href = "" class = contatos>contatos</a></li>
-    </nav>
+  <header>
+    <div class="header-container">
+    <div class="header-img">
+    <img class = "logo" src="imgs/barco1.png">
     </div>
+    <div class="header-info">
+    <H1><span><i>Luxo</i></span></H1>
+    <h2><i>Aluguel de Iates</i></h2>
+    </div>
+    </div>
+    <nav class="header-nav">
+        <ul>
+        <li><a href = "" class = página_inicial>PÁGINA INICIAL</a></li>
+        <li>|</li>
+        <li><a href = "" class = aluguel>ALUGUEL</a></li>
+         <li>|</li>
+        <li><a href = "" class = destinos>DESTINOS</a></li>
+         <li>|</li>
+        <li><a href = "" class = tripulação>TRIPULAÇÃO</a></li>
+         <li>|</li>
+        <li><a href = "" class = contatos>CONTATOS</a></li>
+    </nav>
+    </header>
     <div class=background>
-        <img class = imagem2 src ="imgs/barco.jpg  ">
+        <img class = fundo src ="imagens/barco.jpg">
         <div class=textosobimg>
+            <h1><i id="spaceText" class="titulotxt"></i><p style="color: white;"><i>Você só encontra coisas boas, se combinar luxo e paixão.</p></i></h1>
+            <div class="subtxt">
             <img class = imagembarquinho src = "imgs/barco1.png">
-            <h1><i id="spaceText" class="titulotxt"></i><p style="color: white;"><i>Você só encontra coisas boas se souber onde procurar.</p></i></h1>
-            <h2><p style="color: white;"><i>ligue agora para agendar as férias de sua vida:</p></i></h2>
-            <h3><p style="color: #C6B07F;">(00) 8000-0000</h3></p>
+            <p class="ligue"><i>ligue agora para agendar as férias de sua vida:<span>(00) 0000-0000</span></p></i>
+            </div>
         </div>
+    </div>
+        <div class="categorias-container">
             <div class= destino>
                 <img class= destinoimg src="imgs/destino.png">
-                <h1><i id="spaceText" class="txt"></i><p style="color: white;">Destino.</p></h1>
+                <p>Destino.</p>
             </div>
             <div class = textodestino>
                 <h2><p style="color: black;"><em>Eu Sou Um Texto</p></Em></h1>
@@ -113,6 +66,7 @@
                             <img class= barco2 src = "imgs/frota2.jpg">
 
                         </div>
-  </div>  <br>
+                 </div>  
+         </div>
 </body>
 </html>
